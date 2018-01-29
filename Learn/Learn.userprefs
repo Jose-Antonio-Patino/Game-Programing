@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{AF03038C-707D-8A7C-C70C-A55A02357C37}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/S03a_main.cs">
+    <Files>
+      <File FileName="Assets/Scripts/S03d_main.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/S03g_main.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/S04a_inputKbdPos.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/S04b_inputKbdMov.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/S04d_inputMouseFly.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/S03a_main.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Learn PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
