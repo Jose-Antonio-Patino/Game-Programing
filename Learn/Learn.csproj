@@ -303,7 +303,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\EzCar.cs" />
+    <Compile Include="Assets\Scripts\PlayerControl.cs" />
     <Compile Include="Assets\Scripts\S03a_main.cs" />
     <Compile Include="Assets\Scripts\S03b_main.cs" />
     <Compile Include="Assets\Scripts\S03c_main.cs" />
@@ -316,6 +318,7 @@
     <Compile Include="Assets\Scripts\S04b_inputKbdMov.cs" />
     <Compile Include="Assets\Scripts\S04c_inputKbdMovRot.cs" />
     <Compile Include="Assets\Scripts\S04d_inputMouseFly.cs" />
+    <Compile Include="Assets\Scripts\S07a_trigger.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
