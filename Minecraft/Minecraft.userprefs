@@ -1,0 +1,20 @@
+﻿<Properties StartupConfiguration="{F26D4D04-1CD2-8395-E065-8CF1A65853BE}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/DestroySelectedBlock_10.cs">
+    <Files>
+      <File FileName="Assets/Scripts/GenerateLandscape_01.cs" Line="8" Column="5" />
+      <File FileName="Assets/Scripts/GenerateLandscape_02.cs" Line="7" Column="4" />
+      <File FileName="Assets/Scripts/GenerateLandscape_03.cs" Line="7" Column="5" />
+      <File FileName="Assets/Scripts/GenerateLandscape_05.cs" Line="8" Column="47" />
+      <File FileName="Assets/Scripts/GenerateLandscape_06.cs" Line="15" Column="17" />
+      <File FileName="Assets/Scripts/CamOrbiter.cs" Line="30" Column="1" />
+      <File FileName="Assets/Scripts/DestroySelectedBlock_10.cs" Line="20" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Minecraft PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

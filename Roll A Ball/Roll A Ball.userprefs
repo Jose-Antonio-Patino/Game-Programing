@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{FB9A4C86-22CE-4601-8EB8-5B8E0CBD612A}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Rotator.cs">
     <Files>
       <File FileName="Assets/Scripts/PlayerController.cs" Line="39" Column="24" />
       <File FileName="Assets/Scripts/CameraController.cs" Line="7" Column="5" />
-      <File FileName="Assets/Scripts/Rotator.cs" Line="9" Column="68" />
+      <File FileName="Assets/Scripts/Rotator.cs" Line="8" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

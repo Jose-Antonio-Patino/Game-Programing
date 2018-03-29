@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Scenes/S_10_destroyBlock.unity
+  isLoaded: 1
+  isActive: 1

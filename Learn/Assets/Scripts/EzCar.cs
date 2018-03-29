@@ -9,8 +9,8 @@ public class EzCar : MonoBehaviour {
 
     void Update()
     {
-        float translation = Input.GetAxis("VerticalP1") * speed;
-        float rotation = Input.GetAxis("HorizontalP1") * rotationSpeed;
+        float translation = Input.GetAxis("Vertical") * speed;
+        float rotation = Input.GetAxis("Horizontal") * rotationSpeed;
         translation *= Time.deltaTime;
         rotation *= Time.deltaTime;
         transform.Translate(0, 0, translation);
