@@ -96,7 +96,7 @@ GameObject:
   - component: {fileID: 114944027927141348}
   m_Layer: 0
   m_Name: Door001
-  m_TagString: Untagged
+  m_TagString: Door
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -437,3 +437,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 95984518056224792}
+  keyPickedUp: 0

@@ -9,6 +9,7 @@ public class Door : MonoBehaviour {
 
     void OnTriggerEnter(Collider other) {
         if (keyPickedUp == true) {
+            Debug.Log("Open");
             animator.SetBool("isOpen", true);
         }
     }

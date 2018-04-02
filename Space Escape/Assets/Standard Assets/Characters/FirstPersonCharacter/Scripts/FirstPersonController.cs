@@ -57,12 +57,6 @@ namespace UnityStandardAssets.Characters.FirstPerson
 			m_MouseLook.Init(transform , m_Camera.transform);
         }
 
-        void OnTriggerEnter(Collider other)
-        {
-            if(other.gameObject.CompareTag("Panel Key Start")) {
-                other.gameObject.SetActive(false);
-            }
-        }
 
         // Update is called once per frame
         private void Update()
