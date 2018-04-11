@@ -7,6 +7,7 @@ public class Door : MonoBehaviour {
     public Animator animator;
     public bool keyPickedUp = false;
 
+
     void OnTriggerEnter(Collider other) {
         if (keyPickedUp == true) {
             Debug.Log("Open");
@@ -16,5 +17,6 @@ public class Door : MonoBehaviour {
 
     void OnTriggerExit(Collider other) {
         animator.SetBool("isOpen", false);
+        keyPickedUp = false;
     }
 }

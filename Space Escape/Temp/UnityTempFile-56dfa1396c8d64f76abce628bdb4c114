@@ -182,9 +182,10 @@
 -define:UNITY_TEAM_LICENSE
 -define:ENABLE_VSTU
 -define:CROSS_PLATFORM_INPUT
-'Assets/collectPanel.cs'
 'Assets/Low Poly Flat Sci Fi Assets/Demo/Scripts/DoubleSlidingDoorController.cs'
 'Assets/Low Poly Flat Sci Fi Assets/Demo/Scripts/FlickeringLight.cs'
+'Assets/Scripts/cameraFollow.cs'
+'Assets/Scripts/collectPanel.cs'
 'Assets/Scripts/Door.cs'
 'Assets/Scripts/Movement.cs'
 -r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Runtime.Serialization.dll'

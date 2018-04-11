@@ -184,6 +184,7 @@
 -define:CROSS_PLATFORM_INPUT
 'Assets/Low Poly Flat Sci Fi Assets/Demo/Scripts/DoubleSlidingDoorController.cs'
 'Assets/Low Poly Flat Sci Fi Assets/Demo/Scripts/FlickeringLight.cs'
+'Assets/Scripts/cameraFollow.cs'
 'Assets/Scripts/collectPanel.cs'
 'Assets/Scripts/Door.cs'
 'Assets/Scripts/Movement.cs'

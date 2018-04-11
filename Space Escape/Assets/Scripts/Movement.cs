@@ -12,6 +12,7 @@ public class Movement : MonoBehaviour {
     public float xLocation;
     public float zLocation;
 
+
     void FixedUpdate()
     {
         if (velocity.magnitude > sleepThreshold || transform.position.y > floorHeight)
