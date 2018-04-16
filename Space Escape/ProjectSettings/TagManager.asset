@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Panel Key
   - Door
+  - Panel Key2
+  - Panel Key3
+  - Panel Key4
   layers:
   - Default
   - TransparentFX

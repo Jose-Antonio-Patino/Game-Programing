@@ -5,11 +5,21 @@ using UnityEngine;
 public class collectPanel : MonoBehaviour {
 
     const float maxDestroyDistance = 2f;
-    public GameObject door;
-    private Door doorScript;
+    public GameObject door1;
+    private Door doorScript1;
+    public GameObject door2;
+    private Door doorScript2;
+    public GameObject door3;
+    private Door doorScript3;
+    public GameObject door4;
+    private Door doorScript4;
 
     void Start(){
-        doorScript = door.GetComponent<Door>();
+        doorScript1 = door1.GetComponent<Door>();
+        doorScript2 = door2.GetComponent<Door>();
+        doorScript3 = door3.GetComponent<Door>();
+        doorScript4 = door4.GetComponent<Door>();
+
     }
 
     void Update()
@@ -20,12 +30,28 @@ public class collectPanel : MonoBehaviour {
             Ray ray = Camera.main.ScreenPointToRay(scrCenter);
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit, maxDestroyDistance)){
-                if (hit.transform.gameObject.CompareTag("Panel Key"))
+                if (hit.transform.gameObject.CompareTag(doorScript1.paneltag))
                 {
                     Destroy(hit.transform.gameObject);
-                    Debug.Log("Set to true");
-                    doorScript.keyPickedUp = true;
+                    doorScript1.keyPickedUp = true;
+                    Debug.Log("Set 1 to true");
 
+                } else if (hit.transform.gameObject.CompareTag(doorScript2.paneltag)) {
+                    Destroy(hit.transform.gameObject);
+                    doorScript2.keyPickedUp = true;
+                    Debug.Log("Set 2 to true");
+                }
+                else if (hit.transform.gameObject.CompareTag(doorScript3.paneltag))
+                {
+                    Destroy(hit.transform.gameObject);
+                    doorScript3.keyPickedUp = true;
+                    Debug.Log("Set 3 to true");
+                }
+                else if (hit.transform.gameObject.CompareTag(doorScript4.paneltag))
+                {
+                    Destroy(hit.transform.gameObject);
+                    doorScript4.keyPickedUp = true;
+                    Debug.Log("Set 4 to true");
                 }
             }
         }
