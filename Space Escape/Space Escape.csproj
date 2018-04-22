@@ -315,7 +315,9 @@
     <Compile Include="Assets\Scripts\collectPanel.cs" />
     <Compile Include="Assets\Scripts\Door.cs" />
     <Compile Include="Assets\Scripts\GameMgr.cs" />
+    <Compile Include="Assets\Scripts\grabBall.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
+    <Compile Include="Assets\Scripts\pressurePad.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Low Poly Flat Sci Fi Assets\Documentation\readme.txt" />

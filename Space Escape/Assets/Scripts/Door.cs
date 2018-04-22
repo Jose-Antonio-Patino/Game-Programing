@@ -6,7 +6,6 @@ public class Door : MonoBehaviour
 {
 
     private AudioSource sound;
-    public GameMgr gameMgr;
     public Animator animator;
     public bool keyPickedUp = false;
     public string paneltag;
@@ -22,7 +21,6 @@ public class Door : MonoBehaviour
         if (keyPickedUp == true)
         {
             sound.Play();
-            gameMgr.score++;
             Debug.Log("Open");
             animator.SetBool("isOpen", true);
         }

@@ -9,6 +9,7 @@ TagManager:
   - Panel Key2
   - Panel Key3
   - Panel Key4
+  - Ball
   layers:
   - Default
   - TransparentFX

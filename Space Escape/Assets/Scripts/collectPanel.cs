@@ -14,6 +14,8 @@ public class collectPanel : MonoBehaviour {
     public GameObject door4;
     private Door doorScript4;
 
+    public GameMgr gameMgr;
+
     void Start(){
         doorScript1 = door1.GetComponent<Door>();
         doorScript2 = door2.GetComponent<Door>();
@@ -35,23 +37,27 @@ public class collectPanel : MonoBehaviour {
                     Destroy(hit.transform.gameObject);
                     doorScript1.keyPickedUp = true;
                     Debug.Log("Set 1 to true");
+                    gameMgr.score++;
 
                 } else if (hit.transform.gameObject.CompareTag(doorScript2.paneltag)) {
                     Destroy(hit.transform.gameObject);
                     doorScript2.keyPickedUp = true;
                     Debug.Log("Set 2 to true");
+                    gameMgr.score++;
                 }
                 else if (hit.transform.gameObject.CompareTag(doorScript3.paneltag))
                 {
                     Destroy(hit.transform.gameObject);
                     doorScript3.keyPickedUp = true;
                     Debug.Log("Set 3 to true");
+                    gameMgr.score++;
                 }
                 else if (hit.transform.gameObject.CompareTag(doorScript4.paneltag))
                 {
                     Destroy(hit.transform.gameObject);
                     doorScript4.keyPickedUp = true;
                     Debug.Log("Set 4 to true");
+                    gameMgr.score++;
                 }
             }
         }
