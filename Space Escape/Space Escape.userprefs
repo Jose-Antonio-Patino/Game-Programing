@@ -7,8 +7,8 @@
       <File FileName="../Roll A Ball/Assets/Scripts/CameraController.cs" Line="6" Column="1" />
       <File FileName="Assets/Scripts/cameraFollow.cs" Line="23" Column="1" />
       <File FileName="Assets/Scripts/GameMgr.cs" Line="11" Column="11" />
-      <File FileName="Assets/Scripts/grabBall.cs" Line="35" Column="38" />
-      <File FileName="Assets/Scripts/pressurePad.cs" Line="5" Column="25" />
+      <File FileName="Assets/Scripts/grabBall.cs" Line="14" Column="97" />
+      <File FileName="Assets/Scripts/pressurePad.cs" Line="13" Column="32" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.Space_220Escape PreferredExecutionTarget="Unity.Editor" />

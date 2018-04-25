@@ -12,7 +12,8 @@ public class grabBall : MonoBehaviour {
     void Update()
     {
         float dist = Vector3.Distance(gameObject.transform.position, player.transform.position);
-        if (dist <= 2.5f)
+
+        if (dist <= 5f)
         {
             hasPlayer = true;
         }

@@ -54,7 +54,7 @@ public class collectPanel : MonoBehaviour {
                 }
                 else if (hit.transform.gameObject.CompareTag(doorScript4.paneltag))
                 {
-                    Destroy(hit.transform.gameObject);
+                    hit.transform.gameObject.SetActive(false);
                     doorScript4.keyPickedUp = true;
                     Debug.Log("Set 4 to true");
                     gameMgr.score++;
