@@ -10,6 +10,7 @@ TagManager:
   - Panel Key3
   - Panel Key4
   - Ball
+  - coin
   layers:
   - Default
   - TransparentFX

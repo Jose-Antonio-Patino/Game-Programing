@@ -59,6 +59,10 @@ public class collectPanel : MonoBehaviour {
                     Debug.Log("Set 4 to true");
                     gameMgr.score++;
                 }
+                else if (hit.transform.gameObject.CompareTag("coin")) {
+                    Destroy(hit.transform.gameObject);
+                    gameMgr.winText.text = "VICTORY";
+                }
             }
         }
     }
